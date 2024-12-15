@@ -47,6 +47,7 @@ public class Day1 extends GetFile {
     }
 
     public static void main( String[] args ) throws IOException, URISyntaxException {
+        day1_part1();
         day1_part2();
     }
 }
