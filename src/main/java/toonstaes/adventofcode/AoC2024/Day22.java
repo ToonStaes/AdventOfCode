@@ -1,6 +1,5 @@
 package toonstaes.adventofcode.AoC2024;
 
-import toonstaes.adventofcode.AoC2015.Day6;
 import toonstaes.adventofcode.AoCSolver;
 
 import java.io.IOException;

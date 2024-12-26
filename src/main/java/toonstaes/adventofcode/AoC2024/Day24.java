@@ -40,8 +40,7 @@ public class Day24 extends AoCSolver {
             }
         }
 
-        var outputsToCheck = new ArrayList<OutputLine>();
-        outputsToCheck.addAll(outputs);
+        var outputsToCheck = new ArrayList<>(outputs);
         boolean noMoreOutputs = outputsToCheck.isEmpty();
 
         while (!noMoreOutputs) {
@@ -79,7 +78,7 @@ public class Day24 extends AoCSolver {
         }
 
         var bitString = bitStringBuilder.toString();
-        Long result = Long.parseLong(bitString, 2);
+        long result = Long.parseLong(bitString, 2);
 
         System.out.println("Part 1: " + result);
     }
@@ -109,8 +108,7 @@ public class Day24 extends AoCSolver {
     }
 
     public static void part2() throws URISyntaxException, IOException {
-        var file = getFile("2024/input_day24.txt");
-        var lines = readLines(file);
+
     }
 
     public static void main(String[] args) throws IOException, URISyntaxException {
